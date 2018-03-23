@@ -1,0 +1,28 @@
+@import '../../util/style/post.wxss';
+.btn-block{
+    width:95%;
+    margin-top:20rpx;
+}
+.radio-group{
+    display: flex;
+    flex-direction: column;
+}
+.radio-group radio{
+    margin: 10rpx 0rpx;
+}
+input,textarea{
+    border-bottom:1rpx solid #c6c6c6;
+    color: #999;
+    font-size: 30rpx;
+    width: 90%;
+    margin-left: 30rpx; 
+}
+label{
+    color: #999;
+    font-size:30rpx;
+}
+.picker{
+    color: #999;
+    font-size:30rpx;
+    margin-left: 30rpx; 
+}

@@ -1,0 +1,44 @@
+
+<!--
+  key: string
+  code: string
+  name: string,
+  username: string
+-->
+<template name="cardItem">
+
+  <!-- Card -->
+  <view class="card mainBlue" data-key="{{secret}}" catchtap="viewInfo">
+    <view class="cardInfo">
+      <text class="cardDesc">{{username}}</text>
+      <text class="cardDesc">{{name}}</text>
+    </view>
+    <view class="cardContent">
+      <text class="iconfont icon-{{type?type:server}}" style="font-size:120rpx; opacity: 0.8;margin-top:20rpx;"></text>
+      <text class="cardCode" catchtap="copyCode" data-code="{{code}}">{{code}}</text>
+    </view>
+  </view>
+
+  <!-- Card End -->
+</template>
+<template name="optionCard">
+
+  <!-- Card -->
+  <navigator url="{{url}}">
+    <view class="optionCard {{color}}">
+      <view class="optionIcon">
+        <text class="iconfont icon-{{typed}}" style="font-size:150rpx;line-height:150rpx; opacity: 0.8;margin-left:10rpx;"></text>
+      </view>
+      <view class="optionText">
+        <view class="optionInfo">
+          <text class="optionDesc">{{desc}}</text>
+        </view>
+        <view class="optionContent">
+          <text class="optionName">{{name}}</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+
+  <!-- Card End -->
+</template>

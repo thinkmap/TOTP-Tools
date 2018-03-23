@@ -1,0 +1,124 @@
+@import 'util/style/iconfont.wxss';
+/*
+ * 色彩定义
+ */
+
+text {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+page {
+  background-color: #373739;
+}
+
+.mainBlue {
+  background-color: #3e649f;
+}
+
+.lightBlue {
+  background-color: #0a5bd0;
+}
+
+.darkBlue {
+  background-color: #143a76;
+}
+
+.mainRed {
+  background-color: #ac5155;
+}
+
+.mainYellow {
+  background-color: #e79841;
+}
+
+.mainGreen {
+  background-color: #7aca6d;
+}
+.mainWhite{
+  background-color: #fff;
+}
+.mainWhite text{
+  color:#000;
+}
+
+/*
+ * 公共样式
+ */
+
+/* 公共 FlexBox 主轴纵向左起排列  */
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+/* 全局卡片 */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  margin: 10rpx 20rpx;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardDesc{
+    font-size: 30rpx;
+    opacity: 0.6;
+}
+.cardContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.cardCode{
+    font-size: 100rpx;
+}
+/* 全局选项 */
+.optionCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  margin: 10rpx 20rpx;
+}
+.optionInfo{
+  text-align: right;
+}
+.optionDesc{
+  font-size: 35rpx;
+  opacity: 0.5;
+}
+.optionContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 20rpx;
+}
+
+.optionName{
+  font-size: 70rpx;
+  text-align: right;
+}
+
+
+/* 工具类 */
+.copyright{
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+  opacity: 0.8;
+  margin: 30rpx;
+}
+progress{
+  margin-bottom: 10rpx;
+}

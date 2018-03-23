@@ -1,0 +1,11 @@
+<import src="../../util/template/card.wxml" />
+<progress percent="{{timer}}" stroke-width="4" activeColor="#00CE3C" style="right: 0;top: 0;width: 100%;position: fixed;" />
+<view class="flexBox">
+  <block wx:for="{{servers}}" wx:key="item">
+    <template is="cardItem" data="{{...item}}"></template>
+  </block>
+  <view class="addCard" catchtap="addServer">
+    <text class="iconfont icon-scan"></text>
+    <text class="addText">添加场景</text>
+  </view>
+</view>

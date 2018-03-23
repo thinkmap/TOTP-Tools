@@ -1,0 +1,33 @@
+<block wx:if="{{is_exist}}">
+<progress percent="{{timer}}" stroke-width="4" color="#00CE3C" />
+<view class="flexBox">
+  <!--<view class="viewImageBox">
+    <text class="iconfont icon-{{type?type:server}} viewImage"></text>
+  </view>-->
+  <view class="infoBox">
+    <text class="viewUsername">
+      {{username}}
+    </text>
+    <text class="viewCode" catchtap="copyCode">
+      {{code}}
+    </text>
+  </view>
+  
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="18" class="descMap" markers="{{marker}}"></map>
+  <block wx:if="{{desc}}">
+  <view class="descBox">
+    <view class="descTitle">
+      <text class="descTitleText">详情</text>
+    </view>
+    <view class="descContent">
+      {{desc}}
+    </view>
+  </view>
+  </block>
+  <text class="alertText">谨慎分享！分享相当于复制给别人密钥种子！</text>
+  <button class="btn-block" type="default" catchtap="createQR">生成二维码</button>
+  <button class="btn-block" catchtap="editOne" type="primary">编辑</button>
+  <button class="btn-block" catchtap="deleteOne" type="warn">删除</button>
+  <text class="copyright">Powered by Linux中国</text>
+</view>
+</block>
