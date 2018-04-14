@@ -15,7 +15,7 @@ Page({
    * 预览函数，后续将图片缓存到本地进行预览。
    */
   previewImg:function(e){
-    var img = "https://linux.cn/weixin/api/otp.php?qrcode&id="+ this.data.id
+    var img = "../../images/totp.png"+ this.data.id
     wx.previewImage({
       current: img, // 当前显示图片的http链接
       urls: [img] // 需要预览的图片http链接列表

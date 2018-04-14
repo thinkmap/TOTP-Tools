@@ -18,13 +18,10 @@
       在 Linux 系统中安装 Google 身份验证器服务器端组件
     </text>
     <text class="p">       
-      在 Ubuntu 上安装 Google 身份验证器服务器端组件：
+      在 Ubuntu/Debian 上安装 Google 身份验证器服务器端组件：
       sudo apt-get install libpam-google-authenticator
 
-      在 Fedora 上安装 Google 身份验证器服务器端组件：
-      sudo dnf install google-authenticator
-
-      在 CentOS 上安装 Google 身份验证器服务器端组件，需要首先启用 EPEL 软件库，然后运行如下命令： 
+      在 CentOS/Rehat 上安装 Google 身份验证器服务器端组件，需要首先启用 EPEL 软件库，然后运行如下命令： 
       sudo yum install google-authenticator
 
       你也可以从 GitHub 下载源代码，手动编译。具体编译方法请参照 GitHub 上的说明。项目地址：
@@ -65,5 +62,5 @@
     </text>
 
   </view>
-  <text class="copyright">Powered by Linux中国</text>
+  <text class="copyright">Think Map</text>
 </view>

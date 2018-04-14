@@ -18,9 +18,9 @@ Page({
         color: "mainBlue",
         url: "/page/book/github"
       }, {
-        title: "在 Linux 中国上使用运维密码",
+        title: "在 Linux 上使用运维密码",
         color: "mainBlue",
-        url: "/page/book/linuxcn"
+        url: "/page/book/linux"
       }
     ]
   },

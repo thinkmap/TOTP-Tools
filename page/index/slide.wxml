@@ -1,8 +1,8 @@
 <scroll-view class="scroll-box" scroll-into-view="{{toView}}" scroll-y="true" bindscroll="bindScroll" style="height:{{screenHeight}}px">
   <view id="first" class="scroll-item bg-first" style="height:{{screenHeight}}px">
-    <text class="slogan">运维密码</text>
+    <text class="slogan">TOTP Tools</text>
     <view class="desc-box">
-    <text class="desc">每一位运维人员都需要的</text>
+    <text class="desc">每一位运维人员都需要的OTP</text>
     <text class="desc"> OTP 管理工具</text>
     </view>
     

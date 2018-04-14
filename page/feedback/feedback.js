@@ -3,7 +3,7 @@ Page({
   data: {},
   copyLink: function () {
     wx.setClipboardData({
-      data: "https://github.com/LCTT/WeApp-Password/issues",
+      data: "https://github.com/thinkmap/TOTP-Tools/issues",
       success: function (res) {
         wx.showToast({
           "title": "复制成功！",
